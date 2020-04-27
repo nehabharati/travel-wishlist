@@ -515,7 +515,8 @@ html, body {
 
 .polaroid14 {
   background: #fff;
-  padding: 1rem 1rem 1rem 1rem; }
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 10px 10px; }
   .polaroid14:hover > .caption14 {
     font-size: 1.2rem;
     text-align: center;
