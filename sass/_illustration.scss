@@ -76,6 +76,11 @@ text-align: center;
     width: 100%;
   }
 
+  .images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .venice{ 
         background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/venice-big.jpg");
         background-repeat: no-repeat;
@@ -128,7 +133,7 @@ text-align: center;
     width: 20%;
     display: inline-block;
     margin-top: 6rem;
-    margin-left:2.5%;
+    // margin-left:2.5%;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
@@ -166,8 +171,8 @@ text-align: center;
     width: 20%;
     display: inline-block;
     margin-top: 15rem;
-    margin-left:5%;
-    position: absolute;
+    // margin-left:5%;
+    // position: absolute;
     // top: 50%;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
@@ -208,8 +213,8 @@ text-align: center;
     width: 20%;
     display: inline-block;
     margin-top: 15rem;
-    margin-left:30%;
-    position: absolute;
+    // margin-left:30%;
+    // position: absolute;
     // top: 142%;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
@@ -249,8 +254,8 @@ text-align: center;
     width: 20%;
     display: inline-block;
     margin-top: 15rem;
-    margin-left:55%;
-    position: absolute;
+    // margin-left:55%;
+    // position: absolute;
     // top: 142%;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
@@ -314,7 +319,7 @@ img{
     width: 20%;
     display: inline-block;
     margin-top: 2rem;
-    margin-left:2.5%;
+    // margin-left:2.5%;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
@@ -327,6 +332,8 @@ img{
 .polaroid6 {
 background: #fff;
 padding: 1rem 1rem 1rem 1rem; 
+border-radius: 10px 10px;
+
 &:hover{
     > .caption6 {
         font-size: 1.2rem;
@@ -351,16 +358,14 @@ img{
     width: 20%;
     display: inline-block;
     margin-top: 15rem;
-    margin-left:5%;
-    position: absolute;
-    top:39%;
+    // margin-left:5%;
+    // position: absolute;
+    // top:39%;
     border-radius: 10px 10px;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
-    transition: margin 0.5s ease-out; 
-    overflow: hidden;
-    background-position: top;
+    transition: margin 0.5s ease-out;  
     &:hover {
         margin-top:15%;
     }
@@ -396,9 +401,9 @@ img{
     width: 20%;
     display: inline-block;
     margin-top: 15rem;
-    margin-left:30%;
-    position: absolute; 
-    top:39%;
+    // margin-left:30%;
+    // position: absolute; 
+    // top:39%;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
@@ -409,9 +414,9 @@ img{
 }
 
 .polaroid8 {
-background: #fff;
-padding: 1rem 1rem 1rem 1rem; 
-border-radius: 10px 10px;
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
 
 &:hover{
     > .caption8 {
@@ -434,22 +439,20 @@ img{
 }
 
 .item8 {
-width: 20%;
-display: inline-block;
-margin-top: 15rem;
-margin-left:55%;
-position: absolute; 
-top:39%;
--webkit-transition: opacity 0.5s ease-out;
--moz-transition: opacity 0.5s ease-out;
--o-transition: opacity 0.5s ease-out;
-transition: margin 0.5s ease-out; 
-overflow: hidden;
-background-position: top;
+    width: 20%;
+    display: inline-block;
+    margin-top: 15rem;
+    // margin-left:55%;
+    // position: absolute; 
+    // top:39%;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
 
-&:hover {
-    margin-top:15%;
-  }
+    &:hover {
+        margin-top:15%;
+    }
 }
 
 .japan{ 
@@ -502,7 +505,7 @@ img{
     width: 20%;
     display: inline-block;
     margin-top: 2rem;
-    margin-left:2.5%;
+    // margin-left:2.5%;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
@@ -513,8 +516,9 @@ img{
 }
 
 .polaroid10 {
-background: #fff;
-padding: 1rem 1rem 1rem 1rem; 
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
 &:hover{
     > .caption10 {
         font-size: 1.2rem;
@@ -539,9 +543,9 @@ img{
     width: 20%;
     display: inline-block;
     margin-top: 15rem;
-    margin-left:5%;
-    position: absolute;
-    top:39%;
+    // margin-left:5%;
+    // position: absolute;
+    // top:39%;
     border-radius: 10px 10px;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
@@ -584,9 +588,9 @@ img{
     width: 20%;
     display: inline-block;
     margin-top: 15rem;
-    margin-left:30%;
-    position: absolute; 
-    top:39%;
+    // margin-left:30%;
+    // position: absolute; 
+    // top:39%;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
@@ -625,9 +629,9 @@ img{
 width: 20%;
 display: inline-block;
 margin-top: 15rem;
-margin-left:55%;
-position: absolute; 
-top:39%;
+// margin-left:55%;
+// position: absolute; 
+// top:39%;
 -webkit-transition: opacity 0.5s ease-out;
 -moz-transition: opacity 0.5s ease-out;
 -o-transition: opacity 0.5s ease-out;
@@ -638,6 +642,194 @@ background-position: top;
 &:hover {
     margin-top:15%;
   }
+}
+
+.australia{ 
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/koala.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+    padding-top: 50px;
+    > h1 {
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    > p{
+        width: 40vw;
+        margin-left: 5%;
+        font-size:20px;
+        line-height: 1.5;
+    }
+}
+
+
+.polaroid13 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    margin-top:70%; 
+    border-radius: 10px 10px;
+    &:hover{
+    > .caption13 {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 2em;
+        color: black;
+        display: block;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption13 {
+    display: none;
+  }
+}
+
+.item13 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 2rem;
+    // margin-left:2.5%;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
+    &:hover {
+        margin-top:0%;
+    }
+}
+
+.polaroid14 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+&:hover{
+    > .caption14 {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 2em;
+        color: black;
+        display: block;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption14 {
+    display: none;
+  }
+  
+}
+
+.item14 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 15rem;
+    // margin-left:5%;
+    // position: absolute;
+    // top:39%;
+    border-radius: 10px 10px;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out; 
+    overflow: hidden;
+    background-position: top;
+    &:hover {
+        margin-top:15%;
+    }
+}
+
+
+.polaroid15 {
+background: #fff;
+padding: 1rem 1rem 1rem 1rem; 
+border-radius: 10px 10px;
+
+&:hover{
+    > .caption15 {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 2em;
+        color: black;
+        display: block;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption15 {
+    display: none;
+  }
+  
+}
+
+.item15 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 15rem;
+    // margin-left:30%;
+    // position: absolute; 
+    // top:39%;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out; 
+    &:hover {
+        margin-top:15%;
+    }
+}
+
+.polaroid16 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
+
+&:hover{
+    > .caption16 {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 2em;
+        color: black;
+        display: block;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption16 {
+    display: none;
+  }
+  
+}
+
+.item16 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 15rem;
+    // margin-left:55%;
+    // position: absolute; 
+    // top:39%;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out; 
+    overflow: hidden;
+    background-position: top;
+
+    &:hover {
+        margin-top:15%;
+    }
 }
 
 
