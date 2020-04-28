@@ -111,10 +111,11 @@ text-align: center;
 
     &:hover{
         > .caption1 {
-            font-size: 1.2rem;
+            font-size: 1.6rem;
             text-align: center;
             line-height: 2em;
             color: black;
+            font-weight: 800;
             display: block;
             padding-bottom: 2rem;
         }
@@ -132,14 +133,13 @@ text-align: center;
 .item1 {
     width: 20%;
     display: inline-block;
-    margin-top: 6rem;
-    // margin-left:2.5%;
+    margin-top: 3rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out;  
     &:hover {
-        margin-top:5%;
+        margin-top:1%;
       }
   }
 
@@ -150,11 +150,12 @@ text-align: center;
 
     &:hover{
         > .caption2 {
-            font-size: 1.2rem;
+            font-size: 1.6rem;
             text-align: center;
             line-height: 2em;
             color: black;
             display: block;
+            font-weight: 800;
             padding-bottom: 2rem;
         }
     }
@@ -170,17 +171,14 @@ text-align: center;
 .item2 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:5%;
-    // position: absolute;
-    // top: 50%;
+    margin-top: 12rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out;  
 
     &:hover {
-        margin-top:15%;
+        margin-top:10%;
       }
   }
 
@@ -192,9 +190,10 @@ text-align: center;
 
     &:hover{
         > .caption3 {
-            font-size: 1.2rem;
+            font-size: 1.6rem;
             text-align: center;
             line-height: 2em;
+            font-weight: 800;
             color: black;
             display: block;
             padding-bottom: 2rem;
@@ -212,17 +211,14 @@ text-align: center;
 .item3 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:30%;
-    // position: absolute;
-    // top: 142%;
+    margin-top: 12rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out; 
 
     &:hover {
-        margin-top:15%;
+        margin-top:10%;
       }
   }
 
@@ -233,9 +229,10 @@ text-align: center;
 
     &:hover{
         > .caption4 {
-            font-size: 1.2rem;
+            font-size: 1.6rem;
             text-align: center;
             line-height: 2em;
+            font-weight: 800;
             color: black;
             display: block;
             padding-bottom: 2rem;
@@ -253,17 +250,14 @@ text-align: center;
 .item4 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:55%;
-    // position: absolute;
-    // top: 142%;
+    margin-top: 12rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out; 
 
     &:hover {
-        margin-top:15%;
+        margin-top:10%;
       }
   }
 
@@ -298,9 +292,10 @@ text-align: center;
     border-radius: 10px 10px;
     &:hover{
     > .caption5 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
+        font-weight: 800;
         color: black;
         display: block;
         padding-bottom: 2rem;
@@ -317,15 +312,13 @@ img{
 
 .item5 {
     width: 20%;
-    display: inline-block;
-    margin-top: 2rem;
-    // margin-left:2.5%;
+    display: inline-block; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out;  
     &:hover {
-        margin-top:0%;
+        margin-top:-5%;
     }
 }
 
@@ -336,7 +329,8 @@ border-radius: 10px 10px;
 
 &:hover{
     > .caption6 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
+        font-weight: 800;
         text-align: center;
         line-height: 2em;
         color: black;
@@ -357,17 +351,14 @@ img{
 .item6 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:5%;
-    // position: absolute;
-    // top:39%;
+    margin-top: 9rem; 
     border-radius: 10px 10px;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out;  
     &:hover {
-        margin-top:15%;
+        margin-top:5%;
     }
 }
 
@@ -379,9 +370,10 @@ border-radius: 10px 10px;
 
 &:hover{
     > .caption7 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
+        font-weight: 800;
         color: black;
         display: block;
         padding-bottom: 2rem;
@@ -400,16 +392,13 @@ img{
 .item7 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:30%;
-    // position: absolute; 
-    // top:39%;
+    margin-top: 9rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out; 
     &:hover {
-        margin-top:15%;
+        margin-top:5%;
     }
 }
 
@@ -420,9 +409,10 @@ img{
 
 &:hover{
     > .caption8 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
+        font-weight: 800;
         color: black;
         display: block;
         padding-bottom: 2rem;
@@ -441,17 +431,14 @@ img{
 .item8 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:55%;
-    // position: absolute; 
-    // top:39%;
+    margin-top: 9rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out;  
 
     &:hover {
-        margin-top:15%;
+        margin-top:5%;
     }
 }
 
@@ -484,10 +471,11 @@ img{
     border-radius: 10px 10px;
     &:hover{
     > .caption9 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
         color: black;
+        font-weight: 800;
         display: block;
         padding-bottom: 2rem;
     }
@@ -503,15 +491,13 @@ img{
 
 .item9 {
     width: 20%;
-    display: inline-block;
-    margin-top: 2rem;
-    // margin-left:2.5%;
+    display: inline-block; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out;  
     &:hover {
-        margin-top:0%;
+        margin-top:-5%;
     }
 }
 
@@ -521,9 +507,10 @@ img{
     border-radius: 10px 10px;
 &:hover{
     > .caption10 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
+        font-weight: 800;
         color: black;
         display: block;
         padding-bottom: 2rem;
@@ -542,33 +529,29 @@ img{
 .item10 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:5%;
-    // position: absolute;
-    // top:39%;
+    margin-top: 12.5rem; 
     border-radius: 10px 10px;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
-    transition: margin 0.5s ease-out; 
-    overflow: hidden;
-    background-position: top;
+    transition: margin 0.5s ease-out;  
     &:hover {
-        margin-top:15%;
+        margin-top:9%;
     }
 }
 
 
 .polaroid11 {
-background: #fff;
-padding: 1rem 1rem 1rem 1rem; 
-border-radius: 10px 10px;
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
 
 &:hover{
     > .caption11 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
+        font-weight: 800;
         color: black;
         display: block;
         padding-bottom: 2rem;
@@ -587,30 +570,28 @@ img{
 .item11 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:30%;
-    // position: absolute; 
-    // top:39%;
+    margin-top: 12.5rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out; 
     &:hover {
-        margin-top:15%;
+        margin-top:9%;
     }
 }
 
 .polaroid12 {
-background: #fff;
-padding: 1rem 1rem 1rem 1rem; 
-border-radius: 10px 10px;
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
 
 &:hover{
     > .caption12 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
-        color: black;
+        color: black;        
+        font-weight: 800;
         display: block;
         padding-bottom: 2rem;
     }
@@ -626,22 +607,17 @@ img{
 }
 
 .item12 {
-width: 20%;
-display: inline-block;
-margin-top: 15rem;
-// margin-left:55%;
-// position: absolute; 
-// top:39%;
--webkit-transition: opacity 0.5s ease-out;
--moz-transition: opacity 0.5s ease-out;
--o-transition: opacity 0.5s ease-out;
-transition: margin 0.5s ease-out; 
-overflow: hidden;
-background-position: top;
+    width: 20%;
+    display: inline-block;
+    margin-top: 12.5rem; 
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
 
-&:hover {
-    margin-top:15%;
-  }
+    &:hover {
+        margin-top:9%;
+    }
 }
 
 .australia{ 
@@ -673,11 +649,12 @@ background-position: top;
     border-radius: 10px 10px;
     &:hover{
     > .caption13 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
         color: black;
         display: block;
+        font-weight: 800;
         padding-bottom: 2rem;
     }
 }
@@ -693,14 +670,12 @@ img{
 .item13 {
     width: 20%;
     display: inline-block;
-    margin-top: 2rem;
-    // margin-left:2.5%;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out;  
     &:hover {
-        margin-top:0%;
+        margin-top:-5%;
     }
 }
 
@@ -710,10 +685,11 @@ img{
     border-radius: 10px 10px;
 &:hover{
     > .caption14 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
         color: black;
+        font-weight: 800;
         display: block;
         padding-bottom: 2rem;
     }
@@ -731,36 +707,33 @@ img{
 .item14 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:5%;
-    // position: absolute;
-    // top:39%;
+    margin-top: 12.5rem; 
     border-radius: 10px 10px;
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
-    transition: margin 0.5s ease-out; 
-    overflow: hidden;
-    background-position: top;
+    transition: margin 0.5s ease-out;  
     &:hover {
-        margin-top:15%;
+        margin-top:9%;
     }
 }
 
 
 .polaroid15 {
-background: #fff;
-padding: 1rem 1rem 1rem 1rem; 
-border-radius: 10px 10px;
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
 
 &:hover{
     > .caption15 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
         color: black;
         display: block;
+        line-height: 1.2;
         padding-bottom: 2rem;
+        font-weight: 800;
     }
 }
 img{
@@ -776,16 +749,13 @@ img{
 .item15 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:30%;
-    // position: absolute; 
-    // top:39%;
+    margin-top: 12.5rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out; 
     &:hover {
-        margin-top:15%;
+        margin-top:9%;
     }
 }
 
@@ -796,10 +766,11 @@ img{
 
 &:hover{
     > .caption16 {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         text-align: center;
         line-height: 2em;
         color: black;
+        font-weight: 800;
         display: block;
         padding-bottom: 2rem;
     }
@@ -817,19 +788,14 @@ img{
 .item16 {
     width: 20%;
     display: inline-block;
-    margin-top: 15rem;
-    // margin-left:55%;
-    // position: absolute; 
-    // top:39%;
+    margin-top: 12.5rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
     transition: margin 0.5s ease-out; 
-    overflow: hidden;
-    background-position: top;
 
     &:hover {
-        margin-top:15%;
+        margin-top:9%;
     }
 }
 
@@ -897,7 +863,7 @@ img{
     &:hover {
         margin-top:5%;
         > .polaroid1 > .caption1 {
-            font-size: 1.2rem;
+            font-size: 1.6rem;
             text-align: center;
             line-height: 2em;
             color: black;
@@ -939,7 +905,7 @@ img{
     &:hover {
         margin-top:5%;
         > .polaroid2 > .caption2 {
-            font-size: 1.2rem;
+            font-size: 1.6rem;
             text-align: center;
             line-height: 2em;
             color: black;
