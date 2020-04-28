@@ -1994,7 +1994,7 @@ i {
   .polaroid1 {
     background: #fff;
     padding: 1rem 1rem 1rem 1rem;
-    margin-top: 50%;
+    margin-top: 15%;
     border-radius: 10px 10px; }
     .polaroid1:hover > .caption1 {
       font-size: 1.6rem;
