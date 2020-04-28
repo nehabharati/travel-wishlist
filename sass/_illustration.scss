@@ -143,7 +143,7 @@ text-align: center;
       }
   }
 
-  .polaroid2 {
+.polaroid2 {
     background: #fff;
     padding: 1rem 1rem 1rem 1rem; 
     border-radius: 10px 10px;
@@ -181,7 +181,6 @@ text-align: center;
         margin-top:10%;
       }
   }
-
 
   .polaroid3 {
     background: #fff;
@@ -804,46 +803,1034 @@ img{
     .text{
         margin-top: 40%;
     }
-    // .navbar{
-    //     > ul{
-    //         width: 80vw;
-    //     }
-    // }
+
+    .navbar{
+        > ul{
+            width: 90vw;
+        }
+    }
+    .pics {
+        position: absolute;
+        top:0;
+        left: 0;
+        margin-bottom: 10%;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .item1{
+        width: 30%;
+        margin:5% 60%;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out; 
+        &:hover {
+            transform: scale(1.1,1.1);
+            margin-top: 5%;
+
+        }
+    }
+
+    .polaroid1{
+        margin: 0;
+        padding: 0;
+        padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+        &:hover{
+            > .caption1 {
+                font-size: 0.8rem;
+                text-align: center;
+                color: black;
+                font-weight: 800;
+                display: block;
+                padding-bottom: 0.5rem;
+            }
+    }
+}
+    .item2{
+        width: 30%;
+        margin:5% 60%;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out; 
+        &:hover {
+            transform: scale(1.1,1.1);
+            margin-top: 5%;
+
+        }
+    }
+
+    .polaroid2{
+        margin: 0;
+        padding: 0;
+        padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+        &:hover{
+            > .caption2 {
+                font-size: 0.8rem;
+                text-align: center;
+                color: black;
+                font-weight: 800;
+                display: block;
+                padding-bottom: 0.5rem;
+            }
+    }
+}
+        .item3{
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid3{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption3 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item4{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid4{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption4 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item5{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+              }
+        }
+
+        .polaroid5{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption5 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item6{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid6{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption6 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item7{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid7{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption7 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item8{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid8{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption8 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item9{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+              }
+        }
+
+        .polaroid9{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption9 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item10{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid10{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption10 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item11{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid11{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption11 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item12{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid12{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption12 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item13{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid13{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption13 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item14{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid14{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption14 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item15{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid15{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption15 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item16{
+            position: relative;
+            width: 30%;
+            margin:5% 60%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scale(1.1,1.1);
+                margin-top: 5%;
+
+              }
+        }
+
+        .polaroid16{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption16 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
 }
 
-@media only screen and (max-width:768px) {
+@media (min-width:640px) and (max-width:768px) {
     .text{
         margin-top: 40%;
     }
+    .navbar{
+        > ul{
+            width: 88vw;
+        }
+    }
+    .pics {
+        position: absolute;
+        top:0;
+        left: 0;
+        margin-bottom: 10%;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        margin-top: 8%;
+    }
+    .item1{
+        width: 30%;
+        margin:2% 70%;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out; 
+        &:hover {
+            transform: scaleX(1.1);
+            // margin-top: 10%;
+
+        }
+    }
+
+    .polaroid1{
+        margin: 0;
+        padding: 0;
+        padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+        &:hover{
+            > .caption1 {
+                font-size: 0.8rem;
+                text-align: center;
+                color: black;
+                font-weight: 800;
+                display: block;
+                padding-bottom: 0.5rem;
+            }
+    }
+}
+    .item2{
+        width: 30%;
+        margin:2% 70%;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out; 
+        &:hover {
+            transform: scaleX(1.1);
+            margin-top: 0%;
+
+        }
+    }
+
+    .polaroid2{
+        margin: 0;
+        padding: 0;
+        padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+        &:hover{
+            > .caption2 {
+                font-size: 0.8rem;
+                text-align: center;
+                color: black;
+                font-weight: 800;
+                display: block;
+                padding-bottom: 0.5rem;
+            }
+    }
+}
+        .item3{
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid3{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption3 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item4{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+// 
+              }
+        }
+
+        .polaroid4{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption4 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item5{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+              }
+        }
+
+        .polaroid5{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption5 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item6{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid6{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption6 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item7{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid7{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption7 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item8{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid8{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption8 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item9{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+              }
+        }
+
+        .polaroid9{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption9 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item10{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid10{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption10 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item11{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid11{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption11 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item12{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid12{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption12 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item13{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid13{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption13 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item14{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid14{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption14 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item15{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid15{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption15 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
+        .item16{
+            position: relative;
+            width: 30%;
+            margin:2% 70%;
+            -webkit-transition: all .2s ease-in-out;
+            -moz-transition: all .2s ease-in-out;
+            -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; 
+            &:hover {
+                transform: scaleX(1.1);
+                margin-top: 0%;
+
+              }
+        }
+
+        .polaroid16{
+            margin: 0;
+            padding: 0;
+            padding: 0.5rem 0.5rem 0.3rem 0.5rem; 
+            &:hover{
+                > .caption16 {
+                    font-size: 0.8rem;
+                    text-align: center;
+                    color: black;
+                    font-weight: 800;
+                    display: block;
+                    padding-bottom: 0.5rem;
+                }
+        }
+        }
 }
 
-@media only screen and (max-width:1024px) {
+@media (min-width:768px) and (max-width:1024px){
     .navbar{
         > ul{
             width: 95vw;
         }
     }
-}
-
-@media only screen and (max-width:1280px) {
-    .navbar{
-        > ul{
-            width: 95vw;
-        }
+    .pics {
+        position: absolute;
+        top:0;
+        left: 0;
+        // margin-bottom: 10%;
     }
-
+    .images{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30%;
+    }
 .polaroid1 {
     background: #fff;
-    padding: 1rem 1rem 0 1rem;
-    margin-top:25%;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem; 
+    margin-top:85%; 
+    border-radius: 10px 10px;
+
+    &:hover{
+        > .caption1 {
+            font-size: 1.2rem;
+            text-align: center;
+            line-height: 1em;
+            color: black;
+            font-weight: 800;
+            display: block;
+            padding-bottom: 1.2rem;
+        }
+    }
     img{
         max-width: 100%;
-        object-fit: cover;
-        // height:10%;
+        object-fit: cover; 
       }
       .caption1 {
         display: none;
@@ -854,39 +1841,35 @@ img{
 .item1 {
     width: 20%;
     display: inline-block;
-    margin-top: 10rem;
-    margin-left:5%;
+    margin-top: 3rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
-    transition: margin 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
     &:hover {
-        margin-top:5%;
-        > .polaroid1 > .caption1 {
-            font-size: 1.6rem;
-            text-align: center;
-            line-height: 2em;
-            color: black;
-            display: block;
-            padding-bottom: 2rem;
-        }
+        margin-top:1%;
       }
   }
 
-
-  .polaroid2 {
+.polaroid2 {
     background: #fff;
-    padding: 1rem 1rem 0 1rem;
-    margin-top:25%;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem; 
+    border-radius: 10px 10px;
+
+    &:hover{
+        > .caption2 {
+            font-size: 1.2rem;
+            text-align: center;
+            line-height: 1em;
+            color: black;
+            display: block;
+            font-weight: 800;
+            padding-bottom: 1.2rem;
+        }
+    }
     img{
         max-width: 100%;
-        object-fit: cover;
-        height:10%;
-      }
+       }
       .caption2 {
         display: none;
       }
@@ -896,22 +1879,579 @@ img{
 .item2 {
     width: 20%;
     display: inline-block;
-    margin-top: 10rem;
-    margin-left:5%;
+    margin-top: 12rem; 
     -webkit-transition: opacity 0.5s ease-out;
     -moz-transition: opacity 0.5s ease-out;
     -o-transition: opacity 0.5s ease-out;
-    transition: margin 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
+
     &:hover {
-        margin-top:5%;
-        > .polaroid2 > .caption2 {
-            font-size: 1.6rem;
-            text-align: center;
-            line-height: 2em;
-            color: black;
-            display: block;
-            padding-bottom: 2rem;
-        }
+        margin-top:18%;
       }
   }
+
+  .polaroid3 {
+    background: #fff;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem; 
+    border-radius: 10px 10px;
+
+    &:hover{
+        > .caption3 {
+            font-size: 1.2rem;
+            text-align: center;
+            line-height: 1em;
+            font-weight: 800;
+            color: black;
+            display: block;
+            padding-bottom: 1.2rem;
+        }
+    }
+    img{
+        max-width: 100%;
+       }
+      .caption3 {
+        display: none;
+      }
+      
+  }
+
+.item3 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 12rem; 
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out; 
+
+    &:hover {
+        margin-top:18%;
+      }
+  }
+
+  .polaroid4 {
+    background: #fff;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem; 
+    border-radius: 10px 10px;
+
+    &:hover{
+        > .caption4 {
+            font-size: 1.2rem;
+            text-align: center;
+            line-height: 1em;
+            font-weight: 800;
+            color: black;
+            display: block;
+            padding-bottom: 1.2rem;
+        }
+    }
+    img{
+        max-width: 100%;
+      }
+      .caption4 {
+        display: none;
+      }
+      
+  }
+
+.item4 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 12rem; 
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out; 
+
+    &:hover {
+        margin-top:18%;
+      }
+  }
+
+
+  .paris {
+    > p {
+        width:80%;
+        text-align: justify;
+    }
+}
+.polaroid5 {
+    background: #fff;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem; 
+    margin-top:100%; 
+    border-radius: 10px 10px;
+    &:hover{
+    > .caption5 {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 1em;
+        font-weight: 800;
+        color: black;
+        display: block;
+        padding-bottom: 1.2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption5 {
+    display: none;
+  }
+}
+
+.item5 {
+    width: 20%;
+    display: inline-block; 
+    margin-top: 5rem; 
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
+    &:hover {
+        margin-top:0%;
+    }
+}
+
+.polaroid6 {
+background: #fff;
+padding: 0.6rem 0.6rem 0.6rem 0.6rem; 
+border-radius: 10px 10px;
+
+&:hover{
+    > .caption6 {
+        font-size: 1.2rem;
+        font-weight: 800;
+        text-align: center;
+        line-height: 1em;
+        color: black;
+        display: block;
+        padding-bottom: 1.2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption6 {
+    display: none;
+  }
+  
+}
+
+.item6 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 15.5rem; 
+    border-radius: 10px 10px;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
+    &:hover {
+        margin-top:20%;
+    }
+}
+
+.polaroid7 {
+    background: #fff;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem; 
+    border-radius: 10px 10px;
+    
+    &:hover{
+        > .caption7 {
+            font-size: 1.2rem;
+            font-weight: 800;
+            text-align: center;
+            line-height: 1em;
+            color: black;
+            display: block;
+            padding-bottom: 1.2rem;
+        }
+    }
+    img{
+        max-width: 100%;
+        object-fit: cover; 
+      }
+      .caption7 {
+        display: none;
+      }
+      
+    }
+    
+    .item7 {
+        width: 20%;
+        display: inline-block;
+        margin-top: 15.5rem; 
+        border-radius: 10px 10px;
+        -webkit-transition: opacity 0.5s ease-out;
+        -moz-transition: opacity 0.5s ease-out;
+        -o-transition: opacity 0.5s ease-out;
+        transition: margin 0.5s ease-out;  
+        &:hover {
+            margin-top:20%;
+        }
+    }
+    .polaroid8 {
+        background: #fff;
+        padding: 0.6rem 0.6rem 0.6rem 0.6rem; 
+        border-radius: 10px 10px;
+        
+        &:hover{
+            > .caption8 {
+                font-size: 1.2rem;
+                font-weight: 800;
+                text-align: center;
+                line-height: 1em;
+                color: black;
+                display: block;
+                padding-bottom: 1.2rem;
+            }
+        }
+        img{
+            max-width: 100%;
+            object-fit: cover; 
+          }
+          .caption8 {
+            display: none;
+          }
+          
+        }
+        
+        .item8 {
+            width: 20%;
+            display: inline-block;
+            margin-top: 15.5rem; 
+            border-radius: 10px 10px;
+            -webkit-transition: opacity 0.5s ease-out;
+            -moz-transition: opacity 0.5s ease-out;
+            -o-transition: opacity 0.5s ease-out;
+            transition: margin 0.5s ease-out;  
+            &:hover {
+                margin-top:20%;
+            }
+        }
+ 
+.polaroid9 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    margin-top:70%; 
+    border-radius: 10px 10px;
+    &:hover{
+    > .caption9 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 2em;
+        color: black;
+        font-weight: 800;
+        display: block;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption9 {
+    display: none;
+  }
+}
+
+.item9 {
+    width: 20%;
+    display: inline-block; 
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
+    &:hover {
+        margin-top:-5%;
+    }
+}
+
+.polaroid10 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
+&:hover{
+    > .caption10 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 2em;
+        font-weight: 800;
+        color: black;
+        display: block;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption10 {
+    display: none;
+  }
+  
+}
+
+.item10 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 12.5rem; 
+    border-radius: 10px 10px;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
+    &:hover {
+        margin-top:9%;
+    }
+}
+
+
+.polaroid11 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
+
+&:hover{
+    > .caption11 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 2em;
+        font-weight: 800;
+        color: black;
+        display: block;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption11 {
+    display: none;
+  }
+  
+}
+
+.item11 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 12.5rem; 
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out; 
+    &:hover {
+        margin-top:9%;
+    }
+}
+
+.polaroid12 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
+
+&:hover{
+    > .caption12 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 2em;
+        color: black;        
+        font-weight: 800;
+        display: block;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption12 {
+    display: none;
+  }
+  
+}
+
+.item12 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 12.5rem; 
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
+
+    &:hover {
+        margin-top:9%;
+    }
+}
+ 
+.polaroid13 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    margin-top:70%; 
+    border-radius: 10px 10px;
+    &:hover{
+    > .caption13 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 2em;
+        color: black;
+        display: block;
+        font-weight: 800;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption13 {
+    display: none;
+  }
+}
+
+.item13 {
+    width: 20%;
+    display: inline-block;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
+    &:hover {
+        margin-top:-5%;
+    }
+}
+
+.polaroid14 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
+&:hover{
+    > .caption14 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 2em;
+        color: black;
+        font-weight: 800;
+        display: block;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption14 {
+    display: none;
+  }
+  
+}
+
+.item14 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 12.5rem; 
+    border-radius: 10px 10px;
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out;  
+    &:hover {
+        margin-top:9%;
+    }
+}
+
+
+.polaroid15 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
+
+&:hover{
+    > .caption15 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 2em;
+        color: black;
+        display: block;
+        line-height: 1.2;
+        padding-bottom: 2rem;
+        font-weight: 800;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption15 {
+    display: none;
+  }
+  
+}
+
+.item15 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 12.5rem; 
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out; 
+    &:hover {
+        margin-top:9%;
+    }
+}
+
+.polaroid16 {
+    background: #fff;
+    padding: 1rem 1rem 1rem 1rem; 
+    border-radius: 10px 10px;
+
+&:hover{
+    > .caption16 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 2em;
+        color: black;
+        font-weight: 800;
+        display: block;
+        padding-bottom: 2rem;
+    }
+}
+img{
+    max-width: 100%;
+    object-fit: cover; 
+  }
+  .caption16 {
+    display: none;
+  }
+  
+}
+
+.item16 {
+    width: 20%;
+    display: inline-block;
+    margin-top: 12.5rem; 
+    -webkit-transition: opacity 0.5s ease-out;
+    -moz-transition: opacity 0.5s ease-out;
+    -o-transition: opacity 0.5s ease-out;
+    transition: margin 0.5s ease-out; 
+
+    &:hover {
+        margin-top:9%;
+    }
+}
+}
+
+@media only screen and (min-width:1280px) {
+    .navbar{
+        > ul{
+            width: 95vw;
+        }
+    }
+
+  
 }
