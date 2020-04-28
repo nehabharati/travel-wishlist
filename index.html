@@ -7,12 +7,12 @@
         <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/> -->
         <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script> -->
-        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <!-- <script src="./top.js"></script> -->
     </head>
 
     <body>
         <div class=" bg-overlay">
-            <nav class="navbar">
+            <nav class="navbar" id="navbar">
                 <ul>
                     <a href="#venice" class="nav-link nav-link-ltr"><li>Venice</li></a>
                     <a href="#paris" class="nav-link nav-link-ltr"><li>Paris</li></a>
@@ -45,7 +45,7 @@
                     <div class="item2">
                         <div class="polaroid2">
                             <img  src="./images/canal-grande.jpg" alt="canal-grande" />
-                            <div class="caption2">Canal Grande</div>
+                            <div class="caption2">Grand Canal</div>
                         </div>
                     </div>
 
@@ -131,7 +131,7 @@
             <div class="item11">
                 <div class="polaroid11">
                     <img  src="./images/fushimi.jpg" alt="fushimi" />
-                    <div class="caption11">Fushimi Inari</div>
+                    <div class="caption11">Fushimi Inari Taisha</div>
                 </div>
             </div>
 
@@ -182,13 +182,29 @@
             </div>
         </div>    
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button>
     </div>
 </div>
-        <script>
-            if(screen.width<640) {
-                var t = document.getElementsByClassName("text")
-                t.style.color = "pink"; 
-            }
-        </script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+<script type="text/javascript">
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+</script>
     </body>
 </html>
