@@ -799,7 +799,7 @@ img{
 }
 
 
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:640px) and (orientation:portrait) {
     .text{
         margin-top: 40%;
     }

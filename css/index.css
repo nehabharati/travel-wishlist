@@ -608,7 +608,7 @@ html, body {
   .item16:hover {
     margin-top: 9%; }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 640px) and (orientation: portrait) {
   .text {
     margin-top: 40%; }
 
